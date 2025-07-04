@@ -1,0 +1,22 @@
+<!-- 
+ Have applied the concept of string interpolation ex: "{{collegeName}}", of propert binding ex:[disabled]->ts to html
+ and of event binding ex: (click)->html to ts.
+ Created demo and directives component.
+ Created service demo.
+-->
+<h1>Hello, I'm from {{collegeName}}</h1>
+<button [disabled] = 'isDisabled' (click) ="onClick()">Click me</button>
+<br><hr><br>
+<!--
+In demo.component.html,
+- Two way binding ex: [(ngModel)]
+In demo.component.ts
+- used service in it, to fetch the dummy api 
+-->
+<app-demo /> 
+<br><hr>
+<!--
+In directives.component.html
+Used if and for directive
+-->
+<app-directives />

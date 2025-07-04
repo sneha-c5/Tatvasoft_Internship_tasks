@@ -1,0 +1,16 @@
+
+@if(isAdmin){
+    Logged in user is admin.
+}
+@else
+{
+    Logged in user is not admin.
+}
+<br><br>
+
+List of Fruits
+<ul>
+     @for(fruit of fruits; track $index){
+      <li>{{fruit}}</li>  
+     }
+</ul>

@@ -1,4 +1,4 @@
-# About Task
+# About Tasks
 
 <h3>Day-1</h3>
 Introduction to postgreSQL : <br>
